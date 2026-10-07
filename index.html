@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CardioScan — Análisis de ECG asistido por IA</title>
+<meta name="description" content="CardioScan analiza fotografías de electrocardiogramas mediante inteligencia artificial como herramienta de apoyo a la interpretación.">
+<style>
+:root{--bg:#06181b;--panel:#0d2a2f;--text:#f4fbfc;--muted:#bed1d4;--accent:#57e3d1;--line:rgba(255,255,255,.12);--warn:#ffe0b5}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:linear-gradient(180deg,#06181b,#0a2429);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.6}
+.wrap{max-width:1080px;margin:auto;padding:0 24px}
+nav{position:sticky;top:0;background:rgba(6,24,27,.86);backdrop-filter:blur(18px);border-bottom:1px solid var(--line);z-index:2}
+.nav{height:68px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:800}.brand span{color:var(--accent)}
+nav a{color:var(--muted);text-decoration:none;margin-left:18px}
+.hero{padding:92px 0 72px;max-width:850px}.tag{color:var(--accent);font-weight:800;letter-spacing:.08em;text-transform:uppercase;font-size:.78rem}
+h1{font-size:clamp(2.8rem,7vw,5.7rem);line-height:.96;letter-spacing:-.055em;margin:.2em 0}.lead{font-size:1.22rem;color:var(--muted);max-width:760px}
+.btn{display:inline-block;margin-top:22px;padding:13px 18px;border-radius:14px;background:var(--accent);color:#062226;text-decoration:none;font-weight:800}
+section{padding:70px 0}h2{font-size:clamp(2rem,4vw,3rem);letter-spacing:-.03em}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{border:1px solid var(--line);background:rgba(255,255,255,.035);padding:24px;border-radius:20px}.card p{color:var(--muted)}
+.notice{border:1px solid rgba(255,224,181,.3);background:rgba(255,224,181,.07);padding:24px;border-radius:20px;color:#f6e9d7}
+footer{border-top:1px solid var(--line);padding:32px 0 50px;color:var(--muted)}footer a{color:var(--accent)}
+@media(max-width:760px){.grid{grid-template-columns:1fr}.links{display:none}}
+</style>
+</head>
+<body>
+<nav><div class="wrap nav"><div class="brand">Cardio<span>Scan</span></div><div class="links"><a href="#funciona">Cómo funciona</a><a href="#seguridad">Seguridad</a><a href="privacy.html">Privacidad</a></div></div></nav>
+<main>
+<div class="wrap hero">
+<div class="tag">ECG + inteligencia artificial</div>
+<h1>Interpretación de ECG asistida por IA.</h1>
+<p class="lead">CardioScan permite capturar una fotografía de un electrocardiograma con un iPhone, enviarla de forma segura al servicio de análisis y recibir una interpretación automatizada de apoyo. Requiere conexión a internet.</p>
+<a class="btn" href="#funciona">Cómo funciona</a>
+</div>
+
+<section id="funciona"><div class="wrap">
+<h2>Del trazado a una interpretación orientativa</h2>
+<div class="grid">
+<div class="card"><strong>1. Captura</strong><p>Toma una fotografía nítida y completa del ECG, evitando reflejos, recortes o desenfoque.</p></div>
+<div class="card"><strong>2. Análisis</strong><p>La imagen se transmite a infraestructura propia de CardioScan para realizar el procesamiento asistido por inteligencia artificial.</p></div>
+<div class="card"><strong>3. Resultado</strong><p>La app muestra una interpretación automatizada que puede conservarse en el historial para consultas posteriores.</p></div>
+</div>
+</div></section>
+
+<section id="seguridad"><div class="wrap">
+<h2>Uso médico responsable</h2>
+<div class="notice"><strong>CardioScan no sustituye a un profesional sanitario.</strong> Sus resultados no constituyen por sí solos un diagnóstico médico definitivo y no deben utilizarse como única base para decisiones terapéuticas, para descartar una enfermedad ni para retrasar la búsqueda de atención médica. Los resultados deben interpretarse junto con la historia clínica, los síntomas, el examen físico y, cuando corresponda, la valoración de un médico o cardiólogo. Ante síntomas de alarma o una posible urgencia, debe acudirse a los servicios de emergencia.</div>
+</div></section>
+
+<section><div class="wrap">
+<h2>Privacidad desde el diseño</h2>
+<p class="lead">Las imágenes de ECG y sus resultados son información médica sensible. CardioScan informa al usuario sobre su almacenamiento, conservación, eliminación y sobre cualquier uso opcional de datos para mejorar el sistema.</p>
+<a class="btn" href="privacy.html">Leer política de privacidad</a>
+</div></section>
+</main>
+<footer><div class="wrap">© 2026 CardioScan · <a href="privacy.html">Política de privacidad</a> · <a href="mailto:jesus.viveros00@usc.edu.co">jesus.viveros00@usc.edu.co</a></div></footer>
+</body>
+</html>
